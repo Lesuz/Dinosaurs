@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="css/tailwind.css" rel="stylesheet">
+        <script src="../server.js"></script>
+        <title>Home Page</title>
+    </head>
+    <body>
+        <nav class="bg-yellow-500 justify-center">
+            <ul class="p-5 flex">
+                <h3 class="ml-20 font-sans font-bold text-3xl flex-initial text-yellow-100">Dinosaurs</h3>
+            </ul>
+        </nav>
+        <main>
+            <div class="m-10"> 
+                <div class="bg-yellow-500 bg-opacity-50 p-10 rounded">
+                    <h2 class="text-2xl font-semibold">What is this app?</h2>
+                    <p class="my-10 text-xl ">This app uses a collection of data I have put into a database. The data inludes a name of a dinosaur species with some information about them, or better said, what a friend of mine thinks of them.</p>
+                    <h2 class="text-2xl font-semibold">How to navigate this app?</h2>
+                    <p class="my-10 text-xl">To get all the information in the API, add "/api/getall" to the url. It will show all the data in a json format on the screen. To get back to these instructions, come back to this page.</p>
+                    <p class="my-10 text-xl">To get information on a specific dinosaur, add "/api/<i>dinosaurname</i>" to the url. Or type a word like <em>saur</em> to get all the dinosaurs with "saur" in their name.</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+    </body>
+</html>
